@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Red+Hat+Display:wght@200;300;400;700;900&family=Roboto:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+.LetsTalkHome_Container {
+  background: rgba(20, 20, 22, 1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-content: center;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  position: relative;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.LetsTalk_Title{
+    color: #fcf3ea;
+    font-family: 'Red Hat Display';
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.Lets_Talk_LetsTalkHome{
+    color: #fcf3ea;
+    font-size: 3.8rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+.ContactMeByEmail_Text{
+    color: #fcf3ea;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.Footer_Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.DesignedByText{
+    color: #fcf3ea;
+    font-size: 1.1rem;
+}
+.SocialMedia_Text{
+    color: #fcf3ea;
+    font-size: 2rem;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0 .5rem 0 .5rem;
+}
+.SocialMedia_Text:hover{
+    text-decoration: underline;
+}
+.Media_Logos_Container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.Background_Gif_LetsTalkHome {
+  opacity: 0.2;
+  z-index: -2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://i.pinimg.com/originals/7a/6d/c9/7a6dc9cc0993d354f45535b5f4c811c2.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-self: center;
+  object-fit: cover;
+}
+
+
+@media screen and (min-width: 468px){
+    .LetsTalk_Title{
+        font-size: 2rem;
+    }
+    .Lets_Talk_LetsTalkHome{
+        font-size: 4.8rem;
+    }
+    .DesignedByText{
+        font-size: 1.5rem;
+    }
+    .ContactMeByEmail_Text{
+        font-size: 1.7rem;
+    }
+    .SocialMedia_Text{
+        font-size: 2.5rem;
+    }
+  }
+  
+@media screen and (min-width: 868px){
+    .LetsTalk_Title{
+        font-size: 3rem;
+    }
+    .Lets_Talk_LetsTalkHome{
+        font-size: 6rem;
+    }
+    .DesignedByText{
+        font-size: 2rem;
+    }
+    .ContactMeByEmail_Text{
+        font-size: 2rem;
+    }
+    .SocialMedia_Text{
+        font-size: 3rem;
+    }
+  }

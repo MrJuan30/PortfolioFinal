@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Red+Hat+Display:wght@700;900&family=Roboto:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+.Works_Container {
+  background: rgba(20, 20, 22, 1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-content: center;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  padding: 2rem;
+}
+.WorksTitle_Container {
+  display: inline;
+  text-align: center;
+}
+.Work_Title {
+  font-size: 3rem;
+  color: #fcf3ea;
+  font-weight: 800;
+  font-family: "Red Hat Display";
+  margin-bottom: 3rem;
+  letter-spacing: .4rem;
+}
+.Works_Descriptions{
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin-top: 3rem;
+}
+.Card_Container{
+  display: grid;
+  place-content: center;
+  place-items: center;
+  margin: 1.5rem;
+}
+.Card_Information{
+  display: grid;
+  place-content: center;
+  place-items: center;
+  width: 17rem;
+  height: auto;
+  padding: 1rem;
+  background: rgba(51, 51, 51, 0.6);
+  backdrop-filter: blur(8px);
+  margin-top: -.3rem;
+}
+.Card_Title-text{
+  color: #fcf3ea;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-shadow: -20px 5px 10px #202022, 5px 5px 10px #000;
+}
+.Card_Description{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.Card_Description-Text{
+  color: #fcf3ea;
+  font-size: 1.2rem;
+  display: flex;
+  font-weight: 200;
+  justify-content: center;
+}
+.Card_Image{
+  width: 17rem;
+  min-height: 10rem;
+}
+.Link_Proyect{
+  color: #fcf3ea;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+
+.Background_Gif_Work{
+  opacity: 0.3;
+  z-index: -2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(https://i.pinimg.com/originals/65/d0/09/65d0091cb14c407b9a568d101260e411.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-self: center;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+
+@media screen and (min-width: 468px){
+  .Work_Title {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 868px){
+  .Work_Title {
+    font-size: 5rem;
+  }
+  .Works_Descriptions{
+    display: flex;
+    margin-top: 1rem;
+  }
+  .Card_Image{
+    width: 16rem;
+  }
+  .Card_Information{
+    width: 16rem;
+  }
+}
+@media screen and (min-width: 1440px){
+  .Works_Descriptions{
+    margin-top: .5rem;
+  }
+  .Card_Image{
+    width: 20rem;
+    height: 12rem;
+  }
+  .Card_Information{
+    width: 20rem;
+    padding: 3rem;
+  }
+  .Card_Container{
+    margin: 0 3rem 1rem 3rem;
+  }
+}
