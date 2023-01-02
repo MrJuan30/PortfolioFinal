@@ -120,7 +120,7 @@ const WorksHome = () => {
                 </div>
               </div>
             </div>
-            <div className="MoreInfo_Container">
+            <div className="MoreWorks_Container">
             <NavLink
               to="/Works"
               className="MoreInfo"
