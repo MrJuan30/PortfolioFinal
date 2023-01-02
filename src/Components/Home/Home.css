@@ -23,11 +23,10 @@
   place-content: center;
   z-index: 1;
   width: 100%;
-  height: 110vh;
+  height: 120vh;
   position: relative;
   display: grid;
   place-content: center;
-  padding: 5rem;
 
 }
 .Title_Presentation {
