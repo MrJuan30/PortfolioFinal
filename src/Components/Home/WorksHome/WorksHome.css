@@ -95,10 +95,6 @@ flex-direction: column;
   font-size: 1.5rem;
   margin-top: 1rem;
 }
-.MoreWorks_Container{
-  margin: 2rem;
-  grid-area: 3 / 2 / 4 / 3;
-}
 
 .Background_Gif_Work{
   opacity: 0.3;
@@ -136,10 +132,14 @@ flex-direction: column;
     margin-top: 1rem;
   }
   .Card_Image{
-    width: 16rem;
+    width: 15rem;
   }
   .Card_Information{
-    width: 16rem;
+    width: 15rem;
+  }
+  .MoreWorks_Container{
+    margin: 2rem;
+    grid-area: 3 / 2 / 4 / 3;
   }
 }
 @media screen and (min-width: 1440px){
