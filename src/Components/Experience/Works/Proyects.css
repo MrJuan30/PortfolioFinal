@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Red+Hat+Display:wght@700;900&family=Roboto:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+.Proyects_Container {
+    background: rgba(20, 20, 22, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-content: center;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: grid;
+    place-content: center;
+    padding: 3rem;
+  }
+
+.Background_Gif_Proyects{
+    opacity: 0.3;
+    z-index: -2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(https://i.pinimg.com/originals/5c/4e/40/5c4e40e87696d167e72b4707764ec69b.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-self: center;
+    object-fit: cover;
+    border-radius: inherit;
+}

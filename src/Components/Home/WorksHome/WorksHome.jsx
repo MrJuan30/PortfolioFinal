@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Pokedex from "../../../assets/Pokedex.jpeg";
 import Rick from "../../../assets/RickAndMorty.jpeg";
 import Clock from "../../../assets/Reloj.jpeg";
@@ -119,6 +120,17 @@ const WorksHome = () => {
                 </div>
               </div>
             </div>
+            <div className="MoreInfo_Container">
+            <NavLink
+              to="/Works"
+              className="MoreInfo"
+              data-aos="fade-down"
+              data-aos-duration="5000"
+              data-aos-delay="400"
+            >
+              More
+            </NavLink>
+          </div>
           </div>
           <div className="Background_Gif_Work"></div>
         </div>

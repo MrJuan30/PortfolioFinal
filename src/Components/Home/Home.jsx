@@ -75,9 +75,9 @@ const Home = () => {
             Keep <br /> scrolling
           </p>
           <div className="OpenForWork_Container">
-            <NavLink to="/ContactMe" className="Lets_Talk">
+            <a href="mailto:sebastiancantorvc@gmail.com?Subject=Job%20Opportunity" className="Lets_Talk">
               Let's Talk
-            </NavLink>
+            </a>
           </div>
         </div>
         <div className="Background_Gif"></div>
