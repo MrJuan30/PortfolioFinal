@@ -23,9 +23,11 @@ const AboutHome = () => {
             bring to life an entirely new beautiful thing, it's magical. <br />{" "}
             I hope you enjoy my work.
           </p>
+          <br />
+          <br />
           <div className="MoreInfo_Container">
             <NavLink
-              to="/AboutMe"
+              to="/About"
               className="MoreInfo"
               data-aos="fade-down"
               data-aos-duration="5000"
