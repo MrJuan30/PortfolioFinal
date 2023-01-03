@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./Home.css";
-import Curriculum from "../../assets/Cv.pdf";
+import Curriculum from "../../assets/cv web developer.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { NavLink } from "react-router-dom";
