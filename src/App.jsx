@@ -6,8 +6,16 @@ import "boxicons";
 import Navbar from "./Components/NavBar/Navbar";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import Works from "./Components/Experience/Works";
+import { useLocation } from "react-router-dom";
 
 function App() {
+  const routePath = useLocation();
+  const onTop = () => {
+    window.scrollTo(0, 0);
+  }
+  useEffect(() => {
+    onTop()
+  }, [routePath]);
   return (
     <div className="App">
       <Navbar />
