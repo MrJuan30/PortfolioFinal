@@ -1,9 +1,18 @@
-import React from "react";
+import {React, useEffect} from "react";
 import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useLocation } from "react-router-dom";
+
 
 const Navlist = ({ Clicked, handleClick }) => {
+  const routePath = useLocation();
+  const onTop = () => {
+    window.scrollTo(0, 0);
+  }
+  useEffect(() => {
+    onTop()
+  }, [routePath]);
   AOS.init();
   return (
     <div
