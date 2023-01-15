@@ -17,15 +17,15 @@ const Navlist = ({ Clicked, handleClick }) => {
   return (
     <div
       data-aos="fade-down"
-      data-aos-duration="2000"
+      data-aos-duration="500"
       className={`NavList ${Clicked ? "open" : ""}`}
     >
       <ul className="NavList_List">
         <li
           className="NavList_Item"
           data-aos="flip-down"
-          data-aos-duration="1800"
-          data-aos-delay="1300"
+          data-aos-duration="1300"
+          data-aos-delay="1000"
         >
           <NavLink to="/" className="NavList_Title">
             Home
@@ -34,8 +34,8 @@ const Navlist = ({ Clicked, handleClick }) => {
         <li
           className="NavList_Item"
           data-aos="flip-down"
-          data-aos-duration="1800"
-          data-aos-delay="1500"
+          data-aos-duration="1300"
+          data-aos-delay="1300"
         >
           <NavLink to="/About" className="NavList_Title">
             About
@@ -44,8 +44,8 @@ const Navlist = ({ Clicked, handleClick }) => {
         <li
           className="NavList_Item"
           data-aos="flip-down"
-          data-aos-duration="1800"
-          data-aos-delay="1700"
+          data-aos-duration="1300"
+          data-aos-delay="1500"
         >
           <NavLink to="/Works" className="NavList_Title">
             Works
@@ -54,8 +54,8 @@ const Navlist = ({ Clicked, handleClick }) => {
         <div
           className="ContactMe_Container"
           data-aos="flip-down"
-          data-aos-duration="1800"
-          data-aos-delay="1900"
+          data-aos-duration="1300"
+          data-aos-delay="1700"
         >
           <p className="StartProyect_Text">Want To Start A Proyect?</p>
           <li className="NavList_Item">
