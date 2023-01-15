@@ -89,11 +89,12 @@
     grid-area: 1 / 2 / 2 / 2;
     place-content: center;
     place-items: center;
+    position: relative;
+    top: 25rem;
   }
   
   .FrontEndTools_Info {
     font-size: 1.3rem;
-    margin-top: 25rem;
   }
   .UiLibraries_Info {
     font-size: 1.3rem;
