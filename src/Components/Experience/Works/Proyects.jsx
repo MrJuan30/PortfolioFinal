@@ -7,7 +7,7 @@ import Rick from "../../../assets/RickAndMorty.jpeg";
 import Clock from "../../../assets/Reloj.jpeg";
 import Weather from "../../../assets/WeatherAoo.jpeg";
 import Gym from "../../../assets/GymPage.jpeg";
-import RandomQuote from "../../../assets/RandomQuote.jpeg";
+import EcommercePhoto from "../../../assets/EcommercePhotho.jpeg";
 
 const Proyects = () => {
     AOS.init();
@@ -153,24 +153,23 @@ const Proyects = () => {
                         >
                             <div className="Card_Header">
                                 <a
-                                    href="https://react-proyect-sebascantor.netlify.app"
+                                    href="https://ecommercefakestore.netlify.app"
                                     target="_blank"
                                 >
-                                    <img src={RandomQuote} alt="" className="Card_Image" />
+                                    <img src={EcommercePhoto} alt="Ecommerce Photo" className="Card_Image" />
                                 </a>
                             </div>
                             <div className="Card_Information">
                                 <div className="Card_Title">
-                                    <h5 className="Card_Title-text">Quotes</h5>
+                                    <h5 className="Card_Title-text">Ecommerce</h5>
                                 </div>
                                 <div className="Card_Description">
                                     <p className="Card_Description-Text">
-                                        Random quote generetor proyect created with React JS,
-                                        using axios to make the petition to the API, using CSS and
-                                        JavaScript to make the styles.
+                                        Ecommerce proyect created with React JS,
+                                        using axios to make the petition to the API, using CSS to make the styles, using also the context API to the cart.
                                     </p>
                                     <a
-                                        href="https://react-proyect-sebascantor.netlify.app"
+                                        href="https://ecommercefakestore.netlify.app"
                                         target="_blank"
                                         className="Link_Proyect"
                                     >
