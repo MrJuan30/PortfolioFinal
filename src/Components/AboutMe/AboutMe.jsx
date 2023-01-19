@@ -2,7 +2,7 @@ import React from "react";
 import "./AboutMe.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Curriculum from "../../assets/CV JUAN SEBASTIAN CANTOR.pdf";
+import Curriculum from "../../assets/CV CANTOR.pdf";
 import Information from "./Technologies/Information";
 import LetsTalkHome from "../Home/LetsTalksHome/LetsTalkHome";
 
@@ -42,8 +42,8 @@ const AboutMe = () => {
         </div>
         <div className="Background_Gif_AboutMe"></div>
       </div>
-      <Information/>
-      <LetsTalkHome/>
+      <Information />
+      <LetsTalkHome />
     </div>
   );
 };

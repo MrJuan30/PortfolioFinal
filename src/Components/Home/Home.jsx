@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./Home.css";
-import Curriculum from "../../assets/CV JUAN SEBASTIAN CANTOR.pdf";
+import Curriculum from "../../assets/CV CANTOR.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { NavLink } from "react-router-dom";
@@ -83,8 +83,8 @@ const Home = () => {
         <div className="Background_Gif"></div>
       </div>
       <AboutHome />
-      <WorksHome/>
-      <LetsTalkHome/>
+      <WorksHome />
+      <LetsTalkHome />
     </div>
   );
 };
