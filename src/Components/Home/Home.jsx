@@ -24,11 +24,11 @@ const Home = () => {
                 options={{
                   strings: [
                     "Front End Developer",
+                    "Designer",
                     "React Js",
                     "Bootstrap",
-                    "TailWind",
+                    "TailWind Css",
                     "JavaScript",
-                    "Designer",
                   ],
                   autoStart: true,
                   loop: true,
