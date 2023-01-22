@@ -17,21 +17,21 @@ const Information = () => {
                         constantly looking for ground-breaking solutions to issues that
                         arise in daily life. In my work, I spend most of my time coming up
                         with innovative solutions to development problems. <br /> <br />{" "}
-                        I've been a part of this industry for over one years as an
+                        I've been a part of this industry for over one year as an
                         freelancer developer and within that year, I've honed my analytic
                         and collaboration skills which makes working with a team easier.{" "}
                         <br /> <br />
                         Even though I stumbled upon code by accident, it's something I've
                         come to really like. But like they say, good things come to us
-                        without plan, no?. <br />
+                        without plan, right?. <br />
                         <br /> I especially enjoy watching code bring to life an entirely
                         new beautiful thing, it's magical. For me, each project I have the
                         privilege to work on is a new opportunity to learn new things, meet
-                        people with ideas that differ from mine and discover things about
+                        people with ideas that are different from mine and discover things about
                         myself I never knew were beneath the layers of all of me. I enjoy
                         watching anime, cartoons and I am very into the videogames. I listen
-                        to lots of music and Eminem and Kendrick Lamar are probably my two
-                        favourite artists (For Now). Let's not forget the guys of AJR,
+                        to lots of music, Eminem and Kendrick Lamar are probably my two
+                        favourite artists (For Now).And let's not forget the guys of AJR,
                         they're amazing too.
                     </p>
                     <br />
