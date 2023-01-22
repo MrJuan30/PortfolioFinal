@@ -16,7 +16,7 @@ const AboutHome = () => {
             data-aos-duration="5000"
             data-aos-delay="400"
           >
-            Hi, <span>Sebastian</span> here.
+            Hi, Sebastian here.
             <br />
             <br />I am a software engineer from Bogota, Colombia who constantly seeks out innovative
             solutions to everyday problems. <br /> <br /> I especially enjoy watching code
