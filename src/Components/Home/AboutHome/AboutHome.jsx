@@ -18,7 +18,7 @@ const AboutHome = () => {
           >
             Hi, <span>Sebastian</span> here.
             <br />
-            <br />I am a software engineer from Bogota Colombia who constantly seeks out innovative
+            <br />I am a software engineer from Bogota, Colombia who constantly seeks out innovative
             solutions to everyday problems. <br /> <br /> I especially enjoy watching code
             bring to life an entirely new beautiful thing, it's magical. <br />{" "}
             I hope you enjoy my work.
