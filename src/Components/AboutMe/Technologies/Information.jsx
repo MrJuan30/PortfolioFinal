@@ -56,6 +56,16 @@ const Information = () => {
                             GSAP, Styled Components, Bootstrap, Tailwind CSS, Material UI,
                             Chakra UI, React Storybook, Git.
                         </p>
+                        <br />
+                        <br />
+                        <p className="UiLibraries_Info"
+                            data-aos="fade-up"
+                            data-aos-duration="1500"
+                            data-aos-delay="800">
+                            <span>My Studies:</span> <br />
+                            1. Academlo: Bootcamp to learn how to become a Full Stack Web Developer. <br />
+                            2. University Sergio Arboleda: Systems Engineering Technician Degree.
+                        </p>
                     </div>
 
                 </div>
