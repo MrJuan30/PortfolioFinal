@@ -50,7 +50,7 @@ const LetsTalkHome = () => {
                 name="right-top-arrow-circle"
                 animation="tada"
                 color="#fcf3ea"
-                size="1.5rem"
+                size="2rem"
               ></box-icon>
             </a>
             <br />
@@ -64,7 +64,7 @@ const LetsTalkHome = () => {
                 data-aos-delay="1500"
               >
                 TW
-                <box-icon name="twitter" type="logo" color="#ffffff"></box-icon>
+                <box-icon name="twitter" type="logo" color="#ffffff" size='2rem'></box-icon>
               </a>
               <br />
               <a
@@ -76,7 +76,7 @@ const LetsTalkHome = () => {
                 data-aos-delay="1800"
               >
                 GH
-                <box-icon name="github" type="logo" color="#ffffff"></box-icon>
+                <box-icon name="github" type="logo" color="#ffffff" size='2rem'></box-icon>
               </a>
               <br />
               <a
@@ -92,6 +92,7 @@ const LetsTalkHome = () => {
                   name="linkedin-square"
                   type="logo"
                   color="#ffffff"
+                  size='2rem'
                 ></box-icon>
               </a>
             </div>
