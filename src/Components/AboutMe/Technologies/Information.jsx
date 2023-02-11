@@ -45,13 +45,7 @@ const Information = () => {
                             React.js, Next.js, Vite.js, Redux, Redux Toolkit,React Storybook,
                             NPM, React Testing Library, Node.js/Express, Bootstrap,
                             Git/Gitlab/Github/BitBucket.
-                        </p>
-                        <br />
-                        <br />
-                        <p className="UiLibraries_Info"
-                            data-aos="fade-down"
-                            data-aos-duration="1500"
-                            data-aos-delay="500">
+                            <br />
                             <span> UI Libraries:</span> <br /> CSS3/SCSS/SASS, Framer Motion,
                             GSAP, Styled Components, Bootstrap, Tailwind CSS, Material UI,
                             Chakra UI, React Storybook, Git.
@@ -63,8 +57,8 @@ const Information = () => {
                             data-aos-duration="1500"
                             data-aos-delay="800">
                             <span>Work Experience:</span> <br />
-                            1. Grea Designs: Marketing Agency located in Argentina. 2023 - present <br />
-                            2. Freelancer: Worked as a front end developer making web pages for small bussines. 2018 - 2022
+                            1. Grea Designs: Marketing Agency located in Argentina since January 2023 - present <br />
+                            2. Freelancer: Worked as a front end developer making web pages for small bussines since 2018 - 2022
                         </p>
                     </div>
 
