@@ -49,7 +49,7 @@ const Information = () => {
                         <br />
                         <br />
                         <p className="UiLibraries_Info"
-                            data-aos="fade-up"
+                            data-aos="fade-down"
                             data-aos-duration="1500"
                             data-aos-delay="500">
                             <span> UI Libraries:</span> <br /> CSS3/SCSS/SASS, Framer Motion,
@@ -59,7 +59,7 @@ const Information = () => {
                         <br />
                         <br />
                         <p className="UiLibraries_Info"
-                            data-aos="fade-up"
+                            data-aos="fade-down"
                             data-aos-duration="1500"
                             data-aos-delay="800">
                             <span>Work Experience:</span> <br />
