@@ -63,8 +63,8 @@ const Information = () => {
                             data-aos-duration="1500"
                             data-aos-delay="800">
                             <span>Work Experience:</span> <br />
-                            1. Grea Designs: Marketing Agency located in Argentina. <br />
-                            2. Freelancer: Worked as a front end developer making web pages for small bussines.
+                            1. Grea Designs: Marketing Agency located in Argentina. 2023 - present <br />
+                            2. Freelancer: Worked as a front end developer making web pages for small bussines. 2018 - 2022
                         </p>
                     </div>
 
