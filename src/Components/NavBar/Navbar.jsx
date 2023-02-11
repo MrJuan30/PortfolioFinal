@@ -29,7 +29,6 @@ const Navbar = () => {
             <box-icon
               name="whatsapp"
               type="logo"
-              animation="tada"
               color="#ffffff"
               size="3rem"
             ></box-icon>
