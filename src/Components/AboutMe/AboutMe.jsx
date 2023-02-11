@@ -2,7 +2,7 @@ import React from "react";
 import "./AboutMe.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Curriculum from "../../assets/CV CANTOR.pdf";
+import Curriculum from "../../assets/CvFinal.pdf";
 import Information from "./Technologies/Information";
 import LetsTalkHome from "../Home/LetsTalksHome/LetsTalkHome";
 

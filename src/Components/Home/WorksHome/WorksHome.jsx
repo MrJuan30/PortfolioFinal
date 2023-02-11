@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Pokedex from "../../../assets/Pokedex.jpeg";
 import Rick from "../../../assets/RickAndMorty.jpeg";
-import Clock from "../../../assets/Reloj.jpeg";
+import silocloms from "../../../assets/SiloclomsCapture.jpeg";
 import "./WorksHome.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -96,22 +96,20 @@ const WorksHome = () => {
               data-aos-delay="500"
             >
               <div className="Card_Header">
-                <a href="https://reloj-alltimes.netlify.app" target="_blank">
-                  <img src={Clock} alt="" className="Card_Image" />
+                <a href="https://siloclomsprueba.netlify.app/#/" target="_blank">
+                  <img src={silocloms} alt="" className="Card_Image" />
                 </a>
               </div>
               <div className="Card_Information">
                 <div className="Card_Title">
-                  <h5 className="Card_Title-text">Clock</h5>
+                  <h5 className="Card_Title-text">Silocloms</h5>
                 </div>
                 <div className="Card_Description">
                   <p className="Card_Description-Text">
-                    Beutiful Clock created with HTML CSS and Vainilla
-                    JavaScript,created to practice my CSS and Javascript
-                    habilities.
+                    Beautiful website created for Silocloms, a leading grain import and export company in Argentina, Created with REACT JS, Vainilla Css, Tailwind and JavaScript.
                   </p>
                   <a
-                    href="https://reloj-alltimes.netlify.app"
+                    href="https://siloclomsprueba.netlify.app/#/"
                     target="_blank"
                     className="Link_Proyect"
                   >
@@ -121,16 +119,16 @@ const WorksHome = () => {
               </div>
             </div>
             <div className="MoreWorks_Container">
-            <NavLink
-              to="/Works"
-              className="MoreInfo"
-              data-aos="fade-down"
-              data-aos-duration="5000"
-              data-aos-delay="400"
-            >
-              More
-            </NavLink>
-          </div>
+              <NavLink
+                to="/Works"
+                className="MoreInfo"
+                data-aos="fade-down"
+                data-aos-duration="5000"
+                data-aos-delay="400"
+              >
+                More
+              </NavLink>
+            </div>
           </div>
           <div className="Background_Gif_Work"></div>
         </div>
