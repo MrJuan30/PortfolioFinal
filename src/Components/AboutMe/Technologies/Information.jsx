@@ -62,9 +62,9 @@ const Information = () => {
                             data-aos="fade-up"
                             data-aos-duration="1500"
                             data-aos-delay="800">
-                            <span>My Studies:</span> <br />
-                            1. Academlo: Bootcamp to learn how to become a Full Stack Web Developer. <br />
-                            2. University Sergio Arboleda: Systems Engineering Technician Degree.
+                            <span>Work Experience:</span> <br />
+                            1. Grea Designs: Marketing Agency located in Argentina. <br />
+                            2. Freelancer: Worked as a front end developer making web pages for small bussines.
                         </p>
                     </div>
 
